@@ -27,10 +27,6 @@ class Exception extends \Exception
      * @var null
      */
     public $request;
-    /**
-     * @var bool
-     */
-    public $debug = false;
 
     /**
      * @param string $message
@@ -130,6 +126,10 @@ class API
      * @var
      */
     protected $applicationId;
+    /**
+     * @var bool
+     */
+    public $debug = false;
 
     /**
      * @param $merchantId

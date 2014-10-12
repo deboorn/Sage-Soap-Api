@@ -66,7 +66,7 @@ $testAch = function () use ($sage, $customer) {
 
 // Uncomment below to test
 $testCreditCard();
-//$testAch();
+$testAch();
 
 
 
